@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Cargar Archivos CSV</title>
+</head>
+<body>
+  <h1>Subir Archivos CSV</h1>
+  <form id="formLoadCsvs">
+    <div>
+      <label for="csvClientes">Clientes:</label>
+      <input type="file" id="csvClientes" accept=".csv" required>
+    </div>
+    <div>
+      <label for="csvFacturas">Facturas:</label>
+      <input type="file" id="csvFacturas" accept=".csv" required>
+    </div>
+    <div>
+      <label for="csvDetalleFacturas">Detalle de Facturas:</label>
+      <input type="file" id="csvDetalleFacturas" accept=".csv" required>
+    </div>
+    <div>
+      <label for="csvMetodosPago">Métodos de Pago:</label>
+      <input type="file" id="csvMetodosPago" accept=".csv" required>
+    </div>
+    <div>
+      <label for="csvEstados">Estados de Pago:</label>
+      <input type="file" id="csvEstados" accept=".csv" required>
+    </div>
+    <div>
+      <label for="csvCategorias">Categorías:</label>
+      <input type="file" id="csvCategorias" accept=".csv" required>
+    </div>
+    <div>
+      <label for="csvMedicamentos">Medicamentos:</label>
+      <input type="file" id="csvMedicamentos" accept=".csv" required>
+    </div>
+    
+    <br>
+    <button type="submit">Subir Archivos</button>
+  </form>
+
+  <script src="../app.js"></script>
+</body>
+</html>
