@@ -1,0 +1,80 @@
+*{
+    box-sizing: 0;
+    margin: 0;
+    padding: 0;
+    
+}
+body {
+    background-color: rgba(128, 128, 128, 0.089);
+    font-family: Libertinus;
+    font-family: "Funnel Display", sans-serif;
+   
+}
+
+
+
+.header {
+    height: 10vh;
+    background-color: rgb(187, 3, 211);
+    display: flex;
+    align-items: center;
+
+}
+
+.header h1 {
+    width: 200px;
+    text-align: center;
+    color: white;
+}
+
+.info-container {
+    border: solid 1px rgb(54, 1, 61);
+    width: 400px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    font-size: 27px;
+    gap: 20px;
+    background-color: white;
+}
+
+.container {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.frm-login {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 23px;
+}
+
+.frm-login input {
+    height: 25px;
+    width: 250px;
+    border-radius: 2px;
+}
+
+.btn-login {
+    width: 100px;
+    height: 40px;
+    background-color: purple;
+    color: white;
+    border: solid 1px black;
+    font-size: 16px;
+}
+
+.btn-login:hover {
+    background-color: rgba(128, 0, 128, 0.63);
+    color: black;
+}
+
+.info-container h2 {
+    margin-bottom: 30px;
+}
